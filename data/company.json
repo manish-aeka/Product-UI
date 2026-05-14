@@ -7,17 +7,23 @@
   "vision": "A world where every business, regardless of size, leverages intelligent technology to make smarter decisions and deliver exceptional experiences.",
   "founded": "2022",
   "location": "Global",
-  "email": "hello@anviqslabs.com",
-  "phone": "+1 (800) 000-0000",
-  "address": "Innovation Hub, Tech District, San Francisco, CA 94105",
+  "email": "anviq.ai",
+  "phone": "1234567899",
+  "address": "Vasanth Nagar, Bengaluru - 560052",
   "social": {
     "linkedin": "https://linkedin.com",
     "twitter": "https://twitter.com",
     "github": "https://github.com"
   },
   "cta": {
-    "primary": { "label": "Explore Solutions", "href": "services.html" },
-    "secondary": { "label": "Contact Us", "href": "contact.html" }
+    "primary": {
+      "label": "Explore Solutions",
+      "href": "services.html"
+    },
+    "secondary": {
+      "label": "Contact Us",
+      "href": "contact.html"
+    }
   },
   "about": {
     "headline": "Where Research Meets Real-World AI Innovation",
@@ -27,10 +33,26 @@
       "Our approach blends academic-grade rigor with startup-speed execution — giving our clients the best of both worlds: deeply intelligent systems, delivered at scale."
     ],
     "highlights": [
-      { "icon": "FlaskConical", "title": "Research-Driven", "desc": "Every solution starts with deep research and validated hypotheses." },
-      { "icon": "Layers", "title": "Scalable Architecture", "desc": "Built to grow with your business, from MVP to enterprise scale." },
-      { "icon": "ShieldCheck", "title": "Secure by Design", "desc": "Security and data governance are baked in from day one." },
-      { "icon": "Lightbulb", "title": "Innovation First", "desc": "We continuously explore the cutting edge of AI and ML technologies." }
+      {
+        "icon": "FlaskConical",
+        "title": "Research-Driven",
+        "desc": "Every solution starts with deep research and validated hypotheses."
+      },
+      {
+        "icon": "Layers",
+        "title": "Scalable Architecture",
+        "desc": "Built to grow with your business, from MVP to enterprise scale."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Secure by Design",
+        "desc": "Security and data governance are baked in from day one."
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Innovation First",
+        "desc": "We continuously explore the cutting edge of AI and ML technologies."
+      }
     ]
   }
 }

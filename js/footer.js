@@ -89,9 +89,6 @@ export async function initFooter() {
         <p style="color:var(--color-text-dim);font-size:0.85rem;">
           © ${year} ${company.name}. All rights reserved.
         </p>
-        <p style="color:var(--color-text-dim);font-size:0.85rem;">
-          Built with ${icon('Brain', { size: 14, class: 'icon-glow' })} Intelligence &amp; Precision
-        </p>
       </div>
     </div>
   `;
