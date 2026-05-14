@@ -18,7 +18,7 @@ export async function initNavbar() {
           <div style="width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,#6366f1,#8b5cf6);display:flex;align-items:center;justify-content:center;color:white;flex-shrink:0;">
             ${icon('Brain', { size: 20, strokeWidth: 2 })}
           </div>
-          <span style="font-family:'Outfit',sans-serif;font-weight:800;font-size:1.2rem;background:linear-gradient(135deg,#e0e7ff,#c4b5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">${nav.brand.name}</span>
+          <span style="font-family:'Outfit',sans-serif;font-weight:800;font-size:1.2rem;background:linear-gradient(135deg,#4f46e5,#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">${nav.brand.name}</span>
         </a>
 
         <!-- Desktop Links -->
