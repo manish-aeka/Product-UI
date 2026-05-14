@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ai-solutions",
+    "icon": "Brain",
+    "title": "Artificial Intelligence Solutions",
+    "description": "End-to-end AI systems tailored for your business — from natural language processing and computer vision to intelligent automation and recommendation engines.",
+    "tags": ["NLP", "Computer Vision", "Automation"]
+  },
+  {
+    "id": "ml-development",
+    "icon": "Cpu",
+    "title": "Machine Learning Model Development",
+    "description": "Custom ML model design, training, validation, and deployment pipelines built for production-grade performance and reliability at enterprise scale.",
+    "tags": ["Deep Learning", "Predictive Models", "MLOps"]
+  },
+  {
+    "id": "data-science",
+    "icon": "BarChart3",
+    "title": "Data Science & Analytics",
+    "description": "Transform raw data into clear, actionable intelligence. We design analytics pipelines, dashboards, and statistical models that reveal hidden patterns.",
+    "tags": ["Data Pipelines", "Statistical Modeling", "Visualization"]
+  },
+  {
+    "id": "research-tech",
+    "icon": "FlaskConical",
+    "title": "Research-Driven Technology",
+    "description": "We apply the latest AI research — from transformer architectures to reinforcement learning — to solve complex, novel business problems that standard tools cannot address.",
+    "tags": ["LLMs", "Reinforcement Learning", "R&D"]
+  },
+  {
+    "id": "bi-platforms",
+    "icon": "PieChart",
+    "title": "Business Intelligence Platforms",
+    "description": "Unified BI platforms that consolidate data sources, surface insights in real time, and empower decision-makers at every level of your organization.",
+    "tags": ["Real-Time BI", "KPI Dashboards", "Data Warehousing"]
+  },
+  {
+    "id": "product-engineering",
+    "icon": "Code2",
+    "title": "Scalable Digital Product Engineering",
+    "description": "From architecture design to production deployment, we engineer robust, cloud-native digital products that scale seamlessly with business growth.",
+    "tags": ["Cloud Native", "API Design", "Microservices"]
+  }
+]

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about AnvIQ Labs — a premier AI and Data Science company combining research-driven technology with practical engineering to transform businesses.">
+  <meta name="keywords" content="AnvIQ Labs About, AI Company, Data Science Company, Research-Driven AI">
+  <title>About Us — AnvIQ Labs</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            body:    ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/animations.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" role="status" aria-label="Loading">
+    <div class="loading-logo">AnvIQ Labs</div>
+    <div class="loading-bar"><div class="loading-bar-inner"></div></div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" role="alert" aria-live="polite"></div>
+
+  <!-- Navbar -->
+  <header id="navbar" role="banner"></header>
+
+  <!-- Page Hero -->
+  <section class="page-hero" aria-label="About page hero">
+    <div class="page-hero-bg"></div>
+    <!-- Additional background orbs -->
+    <div style="position:absolute;top:-100px;right:-100px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(139,92,246,0.1) 0%,transparent 70%);filter:blur(80px);pointer-events:none;"></div>
+    <div class="container" style="position:relative;z-index:1;">
+      <div style="text-align:center;max-width:700px;margin:0 auto;" class="reveal">
+        <div class="section-badge" style="margin-bottom:1.25rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
+          Our Story
+        </div>
+        <h1 class="section-title" style="font-size:clamp(2rem,5vw,3.5rem);margin-bottom:1.25rem;">
+          The Team Behind <span class="animated-gradient-text">Intelligent Innovation</span>
+        </h1>
+        <p style="font-size:1.05rem;color:var(--color-text-muted);line-height:1.8;">
+          We're a team of AI researchers, data scientists, and engineers on a mission to make intelligent technology accessible to every business.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- About Main Section -->
+  <section id="about-main-section" class="section" aria-label="About AnvIQ Labs"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Features -->
+  <section id="features-section" class="section" aria-label="Our principles"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Stats -->
+  <section id="stats-section" class="section section-sm" aria-label="Our impact"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Testimonials -->
+  <section id="testimonials-section" class="section" aria-label="Testimonials"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- CTA -->
+  <section id="cta-section" class="cta-section section" aria-label="Call to Action"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Footer -->
+  <footer id="footer" role="contentinfo"></footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

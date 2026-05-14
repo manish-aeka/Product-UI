@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "name": "AnvIQ Labs",
+    "logo": "Brain"
+  },
+  "links": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "About", "href": "about.html" },
+    { "label": "Services", "href": "services.html" },
+    { "label": "Contact", "href": "contact.html" }
+  ],
+  "cta": {
+    "label": "Get Started",
+    "href": "contact.html"
+  },
+  "footer": {
+    "quickLinks": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "About Us", "href": "about.html" },
+      { "label": "Services", "href": "services.html" },
+      { "label": "Contact", "href": "contact.html" }
+    ],
+    "services": [
+      { "label": "AI Solutions", "href": "services.html#ai-solutions" },
+      { "label": "ML Development", "href": "services.html#ml-development" },
+      { "label": "Data Science", "href": "services.html#data-science" },
+      { "label": "BI Platforms", "href": "services.html#bi-platforms" }
+    ]
+  }
+}

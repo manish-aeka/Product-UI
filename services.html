@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore AnvIQ Labs' AI and Data Science services — from machine learning model development to business intelligence platforms and scalable product engineering.">
+  <meta name="keywords" content="AI Services, Machine Learning, Data Science, Business Intelligence, AnvIQ Labs Services">
+  <title>Services — AnvIQ Labs</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            body:    ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/animations.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" role="status" aria-label="Loading">
+    <div class="loading-logo">AnvIQ Labs</div>
+    <div class="loading-bar"><div class="loading-bar-inner"></div></div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" role="alert" aria-live="polite"></div>
+
+  <!-- Navbar -->
+  <header id="navbar" role="banner"></header>
+
+  <!-- Page Hero -->
+  <section class="page-hero" aria-label="Services page hero">
+    <div class="page-hero-bg"></div>
+    <div style="position:absolute;top:-80px;left:-80px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(99,102,241,0.12) 0%,transparent 70%);filter:blur(80px);pointer-events:none;"></div>
+    <div class="container" style="position:relative;z-index:1;">
+      <div style="text-align:center;max-width:700px;margin:0 auto;" class="reveal">
+        <div class="section-badge" style="margin-bottom:1.25rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M9 2v2M2 15h2M2 9h2M15 20v2M9 20v2M20 15h2M20 9h2"/></svg>
+          What We Build
+        </div>
+        <h1 class="section-title" style="font-size:clamp(2rem,5vw,3.5rem);margin-bottom:1.25rem;">
+          Enterprise-Grade <span class="animated-gradient-text">AI Services</span>
+        </h1>
+        <p style="font-size:1.05rem;color:var(--color-text-muted);line-height:1.8;">
+          From concept to deployment — our full-stack AI services are designed to deliver measurable business impact through intelligent technology.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Services -->
+  <section id="services-section" class="section" aria-label="Our Services"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Industries -->
+  <section id="industries-section" class="section" aria-label="Industries We Serve"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Features/Principles -->
+  <section id="features-section" class="section" aria-label="Our Approach"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Stats -->
+  <section id="stats-section" class="section section-sm" aria-label="Impact Statistics"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- CTA -->
+  <section id="cta-section" class="cta-section section" aria-label="Call to Action"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Footer -->
+  <footer id="footer" role="contentinfo"></footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

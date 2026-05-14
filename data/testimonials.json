@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "designation": "Chief Technology Officer",
+    "company": "PropNova Realty",
+    "avatar": "SC",
+    "avatarColor": "from-indigo-500 to-violet-500",
+    "feedback": "AnvIQ Labs delivered a property valuation AI that outperformed every benchmark we had. Their research-driven approach meant the model didn't just fit our data — it understood the nuances of our market. Exceptional team.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Marcus Reid",
+    "designation": "Head of Data Strategy",
+    "company": "RetailCore Inc.",
+    "avatar": "MR",
+    "avatarColor": "from-violet-500 to-purple-500",
+    "feedback": "The demand forecasting system AnvIQ built for us cut our inventory waste by 31% in the first quarter. The team's ability to translate business requirements into precise ML solutions is unmatched in the industry.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Priya Sharma",
+    "designation": "VP of Product",
+    "company": "BrightConsumer Labs",
+    "avatar": "PS",
+    "avatarColor": "from-cyan-500 to-indigo-500",
+    "feedback": "Working with AnvIQ Labs felt like having a world-class AI research lab embedded in our company. The customer behavior analytics platform they built surfaced insights we never knew existed in our own data.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "David Okonkwo",
+    "designation": "Founder & CEO",
+    "company": "ArcadeMetrics",
+    "avatar": "DO",
+    "avatarColor": "from-indigo-500 to-cyan-500",
+    "feedback": "From architecture to deployment, AnvIQ's engineering quality is extraordinary. They built our entire BI platform in record time, and it scales flawlessly. I'd recommend them to any company serious about AI.",
+    "rating": 5
+  }
+]

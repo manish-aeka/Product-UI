@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact AnvIQ Labs to explore how AI and Data Science can transform your business. Schedule a consultation with our expert team today.">
+  <meta name="keywords" content="Contact AnvIQ Labs, AI Consultation, Data Science Contact, Get in Touch">
+  <title>Contact Us — AnvIQ Labs</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            body:    ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/animations.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" role="status" aria-label="Loading">
+    <div class="loading-logo">AnvIQ Labs</div>
+    <div class="loading-bar"><div class="loading-bar-inner"></div></div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" role="alert" aria-live="polite"></div>
+
+  <!-- Navbar -->
+  <header id="navbar" role="banner"></header>
+
+  <!-- Page Hero -->
+  <section class="page-hero" aria-label="Contact page hero">
+    <div class="page-hero-bg"></div>
+    <div style="position:absolute;top:-60px;right:-60px;width:350px;height:350px;border-radius:50%;background:radial-gradient(circle,rgba(6,182,212,0.1) 0%,transparent 70%);filter:blur(80px);pointer-events:none;"></div>
+    <div class="container" style="position:relative;z-index:1;">
+      <div style="text-align:center;max-width:620px;margin:0 auto;" class="reveal">
+        <div class="section-badge" style="margin-bottom:1.25rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Contact Us
+        </div>
+        <h1 class="section-title" style="font-size:clamp(2rem,5vw,3.25rem);margin-bottom:1.25rem;">
+          Start Your <span class="animated-gradient-text">AI Journey</span> Today
+        </h1>
+        <p style="font-size:1.05rem;color:var(--color-text-muted);line-height:1.8;">
+          Whether you're exploring AI capabilities or ready to scale — our experts are here to guide every step of the way.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Contact Form Section -->
+  <section id="contact-section" class="section" aria-label="Contact Form"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- CTA -->
+  <section id="cta-section" class="cta-section section" aria-label="Additional CTA"></section>
+
+  <div class="gradient-divider"></div>
+
+  <!-- Footer -->
+  <footer id="footer" role="contentinfo"></footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

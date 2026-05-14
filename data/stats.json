@@ -1,0 +1,34 @@
+[
+  {
+    "id": "models",
+    "value": 120,
+    "suffix": "+",
+    "label": "AI Models Built",
+    "icon": "Brain",
+    "description": "Production-grade models deployed"
+  },
+  {
+    "id": "solutions",
+    "value": 85,
+    "suffix": "+",
+    "label": "Business Solutions Delivered",
+    "icon": "Rocket",
+    "description": "Across industries and verticals"
+  },
+  {
+    "id": "research",
+    "value": 40,
+    "suffix": "+",
+    "label": "Research Projects",
+    "icon": "FlaskConical",
+    "description": "Active R&D initiatives"
+  },
+  {
+    "id": "usecases",
+    "value": 200,
+    "suffix": "+",
+    "label": "Industry Use Cases",
+    "icon": "Lightbulb",
+    "description": "Validated AI applications"
+  }
+]

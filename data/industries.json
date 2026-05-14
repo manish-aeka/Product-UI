@@ -1,0 +1,26 @@
+[
+  {
+    "id": "real-estate",
+    "icon": "Building2",
+    "title": "Real Estate",
+    "description": "AI-powered property valuation, smart market trend forecasting, automated lead scoring, and intelligent property recommendation engines for modern real estate platforms.",
+    "useCases": ["Property Valuation AI", "Market Forecasting", "Lead Intelligence", "Smart Recommendations"],
+    "gradient": "from-indigo-600 to-violet-600"
+  },
+  {
+    "id": "retail",
+    "icon": "ShoppingBag",
+    "title": "Retail",
+    "description": "Demand forecasting, personalized customer journeys, intelligent inventory management, and AI-driven pricing optimization for next-generation retail businesses.",
+    "useCases": ["Demand Forecasting", "Personalization Engine", "Inventory Optimization", "Dynamic Pricing"],
+    "gradient": "from-violet-600 to-purple-600"
+  },
+  {
+    "id": "consumer-businesses",
+    "icon": "Users",
+    "title": "Consumer Businesses",
+    "description": "Customer behavior analytics, churn prediction, sentiment analysis, and intelligent CRM automation that drive retention and lifetime value for consumer brands.",
+    "useCases": ["Behavioral Analytics", "Churn Prediction", "Sentiment Analysis", "CRM Automation"],
+    "gradient": "from-cyan-600 to-indigo-600"
+  }
+]

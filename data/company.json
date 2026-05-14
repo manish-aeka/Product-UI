@@ -1,0 +1,36 @@
+{
+  "name": "AnvIQ Labs",
+  "tagline": "Transforming Business Data Into Intelligent Digital Solutions",
+  "subheading": "AnvIQ Labs builds AI-powered software products that help businesses make smarter decisions, improve customer experiences, and unlock actionable insights through Artificial Intelligence and Data Science.",
+  "description": "AnvIQ Labs is a premier AI and Data Science company that combines cutting-edge research with practical engineering to build intelligent software solutions. We help businesses across real estate, retail, and consumer sectors transform complex data into meaningful, actionable insights.",
+  "mission": "To democratize intelligent technology by building research-driven AI products that solve real-world business challenges at scale.",
+  "vision": "A world where every business, regardless of size, leverages intelligent technology to make smarter decisions and deliver exceptional experiences.",
+  "founded": "2022",
+  "location": "Global",
+  "email": "hello@anviqslabs.com",
+  "phone": "+1 (800) 000-0000",
+  "address": "Innovation Hub, Tech District, San Francisco, CA 94105",
+  "social": {
+    "linkedin": "https://linkedin.com",
+    "twitter": "https://twitter.com",
+    "github": "https://github.com"
+  },
+  "cta": {
+    "primary": { "label": "Explore Solutions", "href": "services.html" },
+    "secondary": { "label": "Contact Us", "href": "contact.html" }
+  },
+  "about": {
+    "headline": "Where Research Meets Real-World AI Innovation",
+    "body": [
+      "AnvIQ Labs was founded on a simple belief: that Artificial Intelligence and Data Science, when applied with precision and purpose, can fundamentally transform how businesses operate and grow.",
+      "We are a team of AI researchers, data scientists, and product engineers who work at the intersection of intelligent algorithms and real-world business challenges. From machine learning models to business intelligence platforms, every solution we build is grounded in rigorous research.",
+      "Our approach blends academic-grade rigor with startup-speed execution — giving our clients the best of both worlds: deeply intelligent systems, delivered at scale."
+    ],
+    "highlights": [
+      { "icon": "FlaskConical", "title": "Research-Driven", "desc": "Every solution starts with deep research and validated hypotheses." },
+      { "icon": "Layers", "title": "Scalable Architecture", "desc": "Built to grow with your business, from MVP to enterprise scale." },
+      { "icon": "ShieldCheck", "title": "Secure by Design", "desc": "Security and data governance are baked in from day one." },
+      { "icon": "Lightbulb", "title": "Innovation First", "desc": "We continuously explore the cutting edge of AI and ML technologies." }
+    ]
+  }
+}
